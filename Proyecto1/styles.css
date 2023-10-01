@@ -1,0 +1,362 @@
+body {
+  background-color: black;
+  font-family: Actor, arial, helvetica;
+  user-select: none;
+  display: flex;
+}
+
+.header {
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: black;
+  z-index: 10;
+}
+
+.logoRestaurante,
+.logoRestaurante1 {
+  width: 9em;
+  height: 6.5em;
+  padding-top: 1em;
+}
+
+.listElements,
+.title {
+  font-size: 20px;
+  line-height: 1.8;
+  font-weight: 400;
+  font-style: normal;
+  padding: 1em;
+  cursor: pointer;
+  color: #c9b769;
+}
+
+#sakuraTitle {
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+span:hover {
+  color: white;
+}
+
+#formList {
+  width: 10em;
+  height: 8em;
+  padding: 5px;
+  background-color: #c9b769;
+  border-radius: 0.5em;
+  box-sizing: content-box;
+  color: white;
+}
+#formList:hover {
+  opacity: 0.7;
+}
+
+hr {
+  height: 4px;
+  border-color: #c9b769;
+}
+
+.reservation {
+  width: 100%;
+  text-align: center;
+  padding: 3%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.boton1 {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: #c9b769;
+  border: 2px solid;
+  border-color: #c9b769;
+  position: relative;
+}
+.boton1:before {
+  content: "";
+  position: absolute;
+  top: 0em;
+  left: 0em;
+  width: 0em;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 2s ease;
+}
+.boton1:hover:before {
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  color: #c9b769;
+  padding-bottom: 1em;
+}
+
+.textAboutUs,
+.textRestaurant1{
+  color: #c9b769;
+  margin: auto;
+  padding-top: 2em;
+  line-height: 28px;
+  padding-left: 10em;
+  text-align: justify;
+}
+
+.textRestaurant2 {
+  color: #c9b769;
+  margin: auto;
+  padding-top: 2em;
+  line-height: 28px;
+  padding-left: 0;
+  text-align: justify;
+}
+
+
+#firstLetter::first-letter {
+  font-size: 32px;
+  font-style: oblique;
+}
+.ramen {
+  padding: 2em;
+}
+
+.aboutUsHeader,
+.sakuraRestaurante {
+  width: 100%;
+  height: 50px;
+  margin: 50px 0;
+  text-align: center;
+  font-size: 28px;
+  position: relative;
+  background-color: black;
+}
+
+.aboutUsHeader:before,
+.sakuraRestaurante:before {
+  content: "";
+  width: 100%;
+  border-bottom: solid 1px #c9b769;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: 1;
+}
+
+#h2AboutUs,
+#h2Restaurante {
+  background-color: black;
+  width: auto;
+  display: inline-block;
+  z-index: 3;
+  padding: 0 20px 0 20px;
+  color: #c9b769;
+  position: relative;
+  margin: 0;
+}
+
+.restaurantImg1 {
+  width: 25em;
+  height: 15em;
+  padding-bottom: 1em;
+}
+
+.footer {
+  padding-top: 3em;
+  cursor: pointer;
+}
+
+iframe {
+  position: relative;
+  left: -50px;
+}
+
+.textContact {
+  text-align: center;
+  color: #c9b769;
+}
+
+.titleDirection,
+.textTelephone,
+.textEmail {
+  color: #c9b769;
+  cursor: pointer;
+}
+
+#colorP {
+  color: white;
+}
+
+.mapGoogle {
+  margin-top: -40px;
+  margin-bottom: -40px;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+#iconMarcador,
+#iconTelephone,
+#iconEmail {
+  width: 4em;
+  height: 2.5em;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+
+.textEmail:hover,
+.textTelephone:hover,
+.titleDirection:hover {
+  color: white;
+}
+
+.sushImg {
+  width: 95em;
+  height: 25em;
+}
+
+.carta1 {
+  padding-top: 2em;
+  width: 30em;
+  height: 15em;
+  border-radius: 20%;
+}
+
+.imgCircle {
+  position: relative;
+  border-radius: 50%;
+  width: 16em;
+  height: 11em;
+  float: left;
+}
+
+.boxCircleSushi {
+  padding-top: 4em;
+}
+
+#textCircle {
+  text-align: center;
+  color: #c9b769;
+  padding-top: 15em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#lineCircle::after {
+  content: "*";
+}
+
+#textCircle:hover {
+  color: white;
+}
+
+.chefPicture {
+  margin: auto;
+  width: 25em;
+  height: 20em;
+  border-radius: 35%;
+}
+
+.chefImg {
+  align-items: center;
+  justify-content: center;
+  padding-inline: 20em;
+}
+
+.constructionImg {
+  padding-top: 2em;
+}
+
+.socialMedia{
+  position: relative;
+}
+.socialMediaContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+#iconIG,
+#iconTwitter,
+#iconFB {
+  width: 3.5em;
+  height: 2.5em;
+  cursor: pointer;
+  margin: 0.2em;
+}
+
+.respmenu a {
+  color: black;
+  text-decoration: solid;
+  display: block;
+  padding: 10px 20px;
+  border-bottom: 1.5px solid black;
+  max-width: 200px;
+  background: #c9b769d4;
+  font-variant: small-caps;
+}
+
+.respmenu input[type="checkbox"],
+.respmenu .fa-bars,
+.respmenu .fa-times {
+  position: absolute;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  right: 0;
+  top: 0;
+  width: 48px;
+  height: 48px;
+}
+
+.respmenu .fa-bars,
+.respmenu .fa-times {
+  font-size: 48px;
+  pointer-events: none;
+  color: #c9b769d4;
+}
+
+.respmenu input[type="checkbox"] {
+  opacity: 0;
+}
+
+.respmenu {
+  position: relative;
+  background: #c9b76937;
+  min-height: 48px;
+}
+
+.respmenu nav {
+  display: none;
+}
+
+.respmenu input:checked ~ nav {
+  display: block;
+}
+
+.respmenu input:checked ~ .fa-bars {
+  display: none;
+}
+
+.respmenu input:not(:checked) ~ .fa-times {
+  display: none;
+}
+

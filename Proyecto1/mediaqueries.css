@@ -1,0 +1,64 @@
+  @media only screen and (min-width: 769px) {
+    .respmenu, .logoRestaurante1 {
+      display: none;
+    }
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .menu, .sakuraOut,.logoRestaurante{
+      display: none;
+    }
+    .constructionImg, .ramen{
+      width:100%;
+      height:100%;
+      object-fit: cover;
+    }
+  .socialMediaContainer{
+    position: absolute
+  }
+ 
+  .textAboutUs{
+    padding:0 2em;
+  }
+  .ramen{
+    padding: 2em 0;
+    padding-bottom: 0;
+  }
+
+  .textRestaurant1{
+    padding: 1em 1em;
+  }
+
+  .textRestaurant2{
+   position: static; 
+   padding: 1em 1em;
+  }
+
+  .restaurantImg1{
+   width: 100%;
+   height: 100%;
+   padding-top: 2em;
+   
+  }
+  #h2Restaurante{
+  padding: 0;
+  }
+
+  .sushImg{
+    width: 100%;
+    padding-top: 2em;
+  }
+
+  .chefImg{
+    padding: 0;
+    padding-top: 1em;
+  }
+  .fluidMobile{
+    padding: 0;
+  }
+  .imgCircle{
+    margin-left: 4em;
+  }
+ 
+  }
